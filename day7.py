@@ -1,3 +1,4 @@
+# part 2 adds the concatonation rule
 def dfs(total_value, target_value, idx, op_set):
     if idx == len(op_set):
         if total_value == target_value:
